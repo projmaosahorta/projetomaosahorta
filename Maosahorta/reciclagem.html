@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo da Reciclagem</title>
+  <link rel="stylesheet" href="./style/reciclagem.css">
+  <script defer src="./js/reciclagem.js"></script>
+</head>
+<body>
+  <header id="reciclagem-header">
+    <h1>Jogo da Reciclagem</h1>
+  </header>
+
+  <main id="reciclagem-container">
+    <div id="itens-container">
+      <!-- Itens para arrastar aparecem aqui via JS -->
+    </div>
+
+    <div id="lixeiras-container">
+      <div class="lixeira" data-tipo="papel">Papel</div>
+      <div class="lixeira" data-tipo="plastico">Plástico</div>
+      <div class="lixeira" data-tipo="vidro">Vidro</div>
+      <div class="lixeira" data-tipo="metal">Metal</div>
+      <div class="lixeira" data-tipo="organico">Orgânico</div>
+    </div>
+
+    <div id="mensagem"></div>
+  </main>
+
+  <footer id="reciclagem-footer">
+    <button id="back-btn" class="btn">Voltar à Página Principal</button>
+  </footer>
+</body>
+</html>

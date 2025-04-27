@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d7c4a3; 
+    font-family: 'Verdana', sans-serif;
+}
+header {
+    background-color: #4a7c59;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+h1 {
+    color: #f2e9da; 
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #fff;
+}
+button {
+    background-color: #4a7c59;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+footer{
+    background-color: #4a7c59;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+button:hover {
+    background-color: #376b4b;
+    transform: scale(1.05);
+}
+  .game-button {
+    margin-top: 20px;
+}
+  
+.back-button {
+    text-align: center;
+    top: 20px;
+    left: 20px;
+    background-color: #8b5a2b;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2;
+}
+.back-button:hover {
+    background-color: #6e421c;
+}
+  
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f2e9da; 
+    border: 10px solid #8b5a2b; 
+    border-radius: 20px;
+    margin: 20px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+  
+.plant-area, .care-area, .harvest-area {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    width: 80%;
+  }
+  
+#garden {
+    margin-top: 20px;
+    height: 150px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+  
+.plant {
+    width: 100px; 
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+}
+  
+.plant-seed {
+    background-image: url('https://i.pinimg.com/736x/81/57/59/81575932fed60da3452795c17baf94e9.jpg'); /* Imagem da semente */
+}
+  
+.plant-sprout {
+    background-image: url('https://img.freepik.com/vetores-gratis/planta-que-cresce-a-partir-da-semente_1308-3171.jpg?t=st=1745775108~exp=1745778708~hmac=629e4b658bde543fc986777c8f8bc61aae7096a765d9acce49b8415187b815af&w=826'); /* Imagem de broto */
+}
+  
+.plant-grown {
+    background-image: url('https://img.freepik.com/vetores-gratis/girassol-em-panela-de-barro-em-fundo-branco_1308-70861.jpg?t=st=1745775080~exp=1745778680~hmac=a090e584970e10bb9793bbfbb816158295db0b1646abc139c75547f3fe45b09e&w=360'); /* Imagem de planta madura */
+}
+  

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Horta</title>
+  <link rel="stylesheet" href="./style/style_game.css">
+</head>
+<header>
+    <h1>Simulador de Horta Virtual</h1>
+    <p>Plante, regue, adube e colha sua própria horta virtual. Cuide bem das plantas para que elas cresçam saudáveis!</p>
+</header>
+<body>
+
+  <div class="game-container">
+    <div class="plant-area">
+      <h2>Plante suas sementes!</h2>
+      <button id="plantButton">Plantar</button>
+      <div id="garden"></div> 
+    </div>
+
+    <div class="care-area">
+      <h2>Cuide da sua horta</h2>
+      <button id="waterButton">Regar</button>
+      <button id="fertilizeButton">Adubar</button>
+      <div id="status"></div>
+    </div>
+
+    <div class="harvest-area">
+      <h2>Colha seus alimentos</h2>
+      <button id="harvestButton">Colher</button>
+      <div id="harvestResults"></div>
+    </div>
+  </div>
+
+  <br>
+</main>  
+<footer>    
+    <p>&copy; 2025 Mãos à Horta. Todos os direitos reservados.</p>
+    <a href="index.html">
+        <button class="back-button">Voltar para a Página Principal</button>
+      </a>
+  </footer>
+  
+  <script src="./js/script.js"></script>
+
+</body>
+</html>

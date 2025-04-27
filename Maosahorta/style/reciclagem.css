@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eafaf1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #reciclagem-header {
+    background-color: #4a7c59;
+    color: #bfe2a7;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  }
+  
+  #reciclagem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  #itens-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .item {
+    width: 80px;
+    height: 80px;
+    background-color: #cfe8d6;
+    border: 2px solid #4a7c59;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    font-weight: bold;
+    color: #4a7c59;
+    user-select: none;
+  }
+  
+  #lixeiras-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .lixeira {
+    width: 100px;
+    height: 120px;
+    background-color: #bfe2a7;
+    border: 3px dashed #4a7c59;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #4a7c59;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #mensagem {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #4a7c59;
+  }
+  
+  #reciclagem-footer {
+    background-color: #4a7c59;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #1fa83d;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #178a31;
+  }
+  
